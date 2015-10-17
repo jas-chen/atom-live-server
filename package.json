@@ -24,9 +24,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "live-server": "^0.8.1",
     "loophole": "^1.1.0"
   },
-  "devDependencies": {
-    "live-server": "^0.8.1"
-  }
+  "devDependencies": {}
 }
