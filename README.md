@@ -2,7 +2,7 @@
 
 Launch a simple development http server with live reload capability.
 
-![Demo](./doc/demo.gif)
+![Demo](https://raw.githubusercontent.com/jas-chen/atom-live-server/master/doc/demo.gif)
 
 This package is based on awesome [Live Server](https://github.com/tapio/live-server) project.
 
