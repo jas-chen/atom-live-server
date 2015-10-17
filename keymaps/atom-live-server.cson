@@ -1,0 +1,6 @@
+'atom-workspace':
+  'ctrl-shift-3': 'atom-live-server:start-3000'
+  'ctrl-shift-4': 'atom-live-server:start-4000'
+  'ctrl-shift-5': 'atom-live-server:start-5000'
+  'ctrl-shift-8': 'atom-live-server:start-8000'
+  'ctrl-shift-9': 'atom-live-server:start-9000'

@@ -1,0 +1,30 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Live Server'
+      'submenu': [
+        {
+          'label': 'Start on port 3000'
+          'command': 'atom-live-server:start-3000'
+        },
+        {
+          'label': 'Start on port 4000'
+          'command': 'atom-live-server:start-4000'
+        },
+        {
+          'label': 'Start on port 5000'
+          'command': 'atom-live-server:start-5000'
+        },
+        {
+          'label': 'Start on port 8000'
+          'command': 'atom-live-server:start-8000'
+        },
+        {
+          'label': 'Start on port 9000'
+          'command': 'atom-live-server:start-9000'
+        }
+      ]
+    ]
+  }
+]

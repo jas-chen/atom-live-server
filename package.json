@@ -1,0 +1,31 @@
+{
+  "name": "atom-live-server",
+  "main": "./lib/atom-live-server",
+  "version": "1.0.0",
+  "description": "Launch a http server with live reload capability.",
+  "keywords": [
+    "static",
+    "server",
+    "live reload",
+    "livereload"
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "atom-live-server:start-3000",
+      "atom-live-server:start-4000",
+      "atom-live-server:start-5000",
+      "atom-live-server:start-8000",
+      "atom-live-server:start-9000"
+    ]
+  },
+  "repository": "https://github.com/jas-chen/atom-live-server",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "loophole": "^1.1.0",
+    "live-server": "^0.8.1"
+  },
+  "devDependencies": {}
+}
