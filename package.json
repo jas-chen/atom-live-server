@@ -1,7 +1,7 @@
 {
   "name": "atom-live-server",
   "main": "./lib/atom-live-server",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Launch a http server with live reload capability.",
   "keywords": [
     "static",
@@ -24,8 +24,9 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "loophole": "^1.1.0",
-    "live-server": "^0.8.1"
+    "loophole": "^1.1.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "live-server": "^0.8.1"
+  }
 }

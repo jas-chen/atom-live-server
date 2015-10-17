@@ -6,7 +6,7 @@ path = require 'path'
 # live-saver/node_modules/connect/node_modules/morgan/index.js
 # add line 12: var Function = require('loophole').Function;
 # to let it work in atom.
-liveServer =  allowUnsafeEval -> require "live-server"
+liveServer =  allowUnsafeEval -> require "../live-server"
 
 
 module.exports = AtomLiveServer =
