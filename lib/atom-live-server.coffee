@@ -50,7 +50,7 @@ module.exports = AtomLiveServer =
     projectPath = @getPaths()
 
     if !projectPath
-      atom.notifications.addWarning "[Live Server] must be open some project."
+      atom.notifications.addWarning "[Live Server] You haven't opened a Project, you must open one."
       return
 
     params = {
