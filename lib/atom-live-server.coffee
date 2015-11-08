@@ -29,7 +29,7 @@ module.exports = AtomLiveServer =
 
   getPaths: ->
     paneItem = atom.workspace.getActivePaneItem()
-    file = paneItem?.buffer.file
+    file = paneItem?.buffer?.file
     filePath = file?.path
 
     projectPaths = atom.project.getPaths()
