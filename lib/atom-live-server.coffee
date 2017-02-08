@@ -13,12 +13,12 @@ module.exports = AtomLiveServer =
   subscriptions: null
 
   config:
-    openInApp:
+    openInBrowser:
       type: 'string'
       default: 'system'
-      title: 'Open in App'
+      title: 'Open in Browser'
       description: '''
-      Open the website in this app when starting the live-server.
+      Open the website in this browser when starting the live-server.
       Possible options are:
       'safari'
       'google chrome'
@@ -72,7 +72,7 @@ module.exports = AtomLiveServer =
       port: port,
       root: projectPath,
       open: true,
-      browser: atom.config.get("atom-live-server.openInApp")
+      browser: atom.config.get("atom-live-server.openInBrowser")
     };
 
     allowUnsafeEval -> liveServer.start params;
