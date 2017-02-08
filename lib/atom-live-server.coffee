@@ -12,6 +12,21 @@ liveServer =  allowUnsafeEval -> require "../live-server"
 module.exports = AtomLiveServer =
   subscriptions: null
 
+  config:
+    openInApp:
+      type: 'string'
+      default: 'system'
+      title: 'Open in App'
+      description: '''
+      Open the website in this app when starting the live-server.
+      Possible options are:
+      'safari'
+      'google chrome'
+      'firefox'
+      'firefoxdeveloperedition'
+      ...
+      '''
+
   activate: (state) ->
     @subscriptions = new CompositeDisposable
     @subscriptions.add atom.commands.add 'atom-workspace', {
@@ -56,7 +71,8 @@ module.exports = AtomLiveServer =
     params = {
       port: port,
       root: projectPath,
-      open: true
+      open: true,
+      browser: atom.config.get("atom-live-server.openInApp")
     };
 
     allowUnsafeEval -> liveServer.start params;
