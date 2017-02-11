@@ -8,12 +8,44 @@ This package is based on awesome [Live Server](https://github.com/tapio/live-ser
 
 ## Usage
 
-`ctrl-shift-3` launch live server on port 3000.
+`ctrl-alt-l` launch live server on port 3000.
 
-`ctrl-shift-4` launch live server on port 4000.
+`ctrl-alt-q` stop live server.
 
-`ctrl-shift-5` launch live server on port 5000.
+`ctrl-alt-3` launch live server on port 3000.
 
-`ctrl-shift-8` launch live server on port 8000.
+`ctrl-alt-4` launch live server on port 4000.
 
-`ctrl-shift-9` launch live server on port 9000.
+`ctrl-alt-5` launch live server on port 5000.
+
+`ctrl-alt-8` launch live server on port 8000.
+
+`ctrl-alt-9` launch live server on port 9000.
+
+
+## Config live server
+
+If a file `.atom-live-server.json` exists in project root it will be loaded and used as options for live-server on the command line.
+
+The keys of `.atom-live-server.json` should match **Command line parameters** in [live-server](https://github.com/tapio/live-server).
+
+#### Example: Launch specific browser
+```json
+{
+  "browser": "safari"
+}
+```
+
+#### Example: Start server without browser opened
+```json
+{
+  "no-browser": true
+}
+```
+
+#### Example: Serve this file for every 404 (useful for single-page applications)
+```json
+{
+  "entry-file": "index.html"
+}
+```
