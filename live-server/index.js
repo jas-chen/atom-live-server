@@ -109,6 +109,7 @@ LiveServer.start = function(options) {
 	var file = options.file;
 	var staticServerHandler = staticServer(root);
 	var wait = options.wait || 0;
+	var browser = options.browser;
 
 	// Setup a web server
 	var app = connect()
@@ -142,8 +143,13 @@ LiveServer.start = function(options) {
 		}
 
 		// Launch browser
-		if (openPath !== null)
-			open(serveURL + openPath);
+		if (openPath !== null) {
+			if (browser === 'system' || browser === '') {
+				open(serveURL + openPath);
+			} else {
+				open(serveURL + openPath, browser);
+			}
+		}
 	});
 
 	// Setup server to listen at port
