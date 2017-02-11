@@ -23,9 +23,9 @@ This package is based on awesome [Live Server](https://github.com/tapio/live-ser
 `ctrl-alt-9` launch live server on port 9000.
 
 
-## Config live server
+## Options
 
-If a file `.atom-live-server.json` exists in project root it will be loaded and used as options for live-server on the command line.
+If a file `.atom-live-server.json` exists in project root it will be loaded and used as options.
 
 The keys of `.atom-live-server.json` should match **Command line parameters** in [live-server](https://github.com/tapio/live-server).
 
