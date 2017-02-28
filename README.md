@@ -49,3 +49,10 @@ The keys of `.atom-live-server.json` should match **Command line parameters** in
   "entry-file": "index.html"
 }
 ```
+
+#### Example: Serve this directory as root path
+```json
+{
+  "root": "public"
+}
+```
