@@ -1,7 +1,7 @@
 {
   "name": "atom-live-server",
   "main": "./lib/atom-live-server",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Launch a http server with live reload capability.",
   "keywords": [
     "static",
