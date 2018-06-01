@@ -19,6 +19,8 @@
   },
   "dependencies": {
     "json5": "^0.5.1",
-    "live-server": "^1.2.0"
+    "live-server": "^1.2.0",
+    "strip-ansi": "^4.0.0"
+  },
   }
 }
