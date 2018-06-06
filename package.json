@@ -27,6 +27,11 @@
       "versions": {
         "^0.1.0": "consumeConsole"
       }
+    },
+    "tool-bar": {
+      "versions": {
+        "^0 || ^1": "consumeToolBar"
+      }
     }
   }
 }
