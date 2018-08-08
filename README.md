@@ -8,19 +8,15 @@ This package is based on awesome [Live Server](https://github.com/tapio/live-ser
 
 ## Usage
 
-`ctrl-alt-l` launch live server on port 3000.
-
-`ctrl-alt-q` stop live server.
-
-`ctrl-alt-3` launch live server on port 3000.
-
-`ctrl-alt-4` launch live server on port 4000.
-
-`ctrl-alt-5` launch live server on port 5000.
-
-`ctrl-alt-8` launch live server on port 8000.
-
-`ctrl-alt-9` launch live server on port 9000.
+| Command | Keybinding | Description |
+| ------- | ---------- | ----------- |
+| `atom-live-server:start-server` | `ctrl-alt-l` | Launch live server on default port, by default 3000. |
+| `atom-live-server:stop-server` | `ctrl-alt-q` | Stops currently running instance of live server. |
+| `atom-live-server:start-3000` | `ctrl-alt-3` | Launch live server on port 3000. |
+| `atom-live-server:start-4000` | `ctrl-alt-4` | Launch live server on port 4000. |
+| `atom-live-server:start-5000` | `ctrl-alt-5` | Launch live server on port 5000. |
+| `atom-live-server:start-8000` | `ctrl-alt-8` | Launch live server on port 8000. |
+| `atom-live-server:start-9000` | `ctrl-alt-9` | Launch live server on port 9000. |
 
 
 ## Options
