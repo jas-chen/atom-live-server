@@ -1,0 +1,7 @@
+'context-menu':
+  'atom-text-editor': [
+    label: 'Open in Live Server', command: 'atom-live-server:start-9000'
+  ]
+  '.tree-view .file': [
+    label: 'Open in Live Server', command: 'atom-live-server:start-9000'
+  ]
